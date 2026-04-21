@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
  * Student ID: A00202436
  * Description: RecyclerView Adapter for displaying products.
  */
+
 class ProductAdapter(
     private val products: List<Product>,
     private val onClick: (Product) -> Unit
