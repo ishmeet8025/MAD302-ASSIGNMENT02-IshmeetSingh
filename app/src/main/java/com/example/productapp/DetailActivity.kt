@@ -17,8 +17,7 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
-        // Null safety applied
-        val name = intent.getStringExtra("name") ?: "No Name"
+        val name = intent.getStringExtra("name") ?: "No Name"       // Null safety applied
         val price = intent.getDoubleExtra("price", 0.0)
         val description = intent.getStringExtra("description") ?: "No Description"
 
